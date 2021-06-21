@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_parceiro_parceiros",
+  "info": {
+    "name": "parceiro",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "parceiro": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

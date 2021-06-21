@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/restaurants",
-      "handler": "restaurant.find",
+      "path": "/bairros",
+      "handler": "bairro.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/restaurants/count",
-      "handler": "restaurant.count",
+      "path": "/bairros/count",
+      "handler": "bairro.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.findOne",
+      "path": "/bairros/:id",
+      "handler": "bairro.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/restaurants",
-      "handler": "restaurant.create",
+      "path": "/bairros",
+      "handler": "bairro.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.update",
+      "path": "/bairros/:id",
+      "handler": "bairro.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/restaurants/:id",
-      "handler": "restaurant.delete",
+      "path": "/bairros/:id",
+      "handler": "bairro.delete",
       "config": {
         "policies": []
       }

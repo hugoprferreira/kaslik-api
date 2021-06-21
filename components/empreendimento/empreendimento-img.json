@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_empreendimento_empreendimento_imgs",
+  "info": {
+    "name": "empreendimento_img",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "empreendimento_foto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "empreendimento_txt": {
+      "type": "string"
+    },
+    "empreendimento_parceiro": {
+      "type": "boolean",
+      "default": false
+    },
+    "parceiro_nome": {
+      "type": "string"
+    }
+  }
+}

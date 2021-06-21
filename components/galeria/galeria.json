@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_galeria_galerias",
+  "info": {
+    "name": "galeria",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "titulo_galeria": {
+      "type": "string",
+      "required": true
+    },
+    "foto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "galeria.foto"
+    }
+  }
+}

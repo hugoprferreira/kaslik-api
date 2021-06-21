@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_empreendimento_empreendimentos_galerias",
+  "info": {
+    "name": "empreendimentos_galeria",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "empreendimento_subtitulo": {
+      "type": "string",
+      "required": true
+    },
+    "empreendimento_subtexto": {
+      "type": "string"
+    },
+    "empreendimento_img": {
+      "type": "component",
+      "repeatable": true,
+      "component": "empreendimento.empreendimento-img"
+    },
+    "empreendimento_titulo": {
+      "type": "string",
+      "required": true
+    },
+    "empreendimento_bairro": {
+      "type": "string"
+    }
+  }
+}

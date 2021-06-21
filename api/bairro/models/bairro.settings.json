@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bairros",
+  "info": {
+    "name": "Bairro",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "galeria": {
+      "type": "component",
+      "repeatable": false,
+      "component": "galeria.galeria"
+    },
+    "empreendimentos_galeria": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.empreendimentos-galeria"
+    }
+  }
+}
